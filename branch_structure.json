@@ -1,0 +1,24 @@
+{
+  "default_branch": "main",
+  "branches": [
+    "fix/issue-636-lf-150-a-round-can-get-stuck-after-leave-round",
+    "fix/issue-637-lf-151-let-anyone-finalize-a-round-after-its",
+    "fix/issue-638-lf-152-openrounds-is-one-unbounded-vector",
+    "main",
+    "origin"
+  ],
+  "parent": {
+    "fix/issue-636-lf-150-a-round-can-get-stuck-after-leave-round": "main",
+    "fix/issue-637-lf-151-let-anyone-finalize-a-round-after-its": "main",
+    "fix/issue-638-lf-152-openrounds-is-one-unbounded-vector": "main",
+    "main": null,
+    "origin": "main"
+  },
+  "order": [
+    "main",
+    "fix/issue-636-lf-150-a-round-can-get-stuck-after-leave-round",
+    "fix/issue-637-lf-151-let-anyone-finalize-a-round-after-its",
+    "fix/issue-638-lf-152-openrounds-is-one-unbounded-vector",
+    "origin"
+  ]
+}
