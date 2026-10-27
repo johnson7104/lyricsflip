@@ -1,6 +1,6 @@
 {
   "name": "lyricsflip-backend",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Backend service for LyricsFlip game",
   "author": "",
   "private": true,
@@ -102,7 +102,12 @@
     "transform": {
       "^.+\\.(t|j)s$": [
         "ts-jest",
-        { "isolatedModules": true, "tsconfig": { "allowJs": true } }
+        {
+          "isolatedModules": true,
+          "tsconfig": {
+            "allowJs": true
+          }
+        }
       ]
     },
     "transformIgnorePatterns": [
